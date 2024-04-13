@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # Specify the directory containing the DLL files
-dll_dir="./"
+dll_dir="path/to/dll/dir"
 
 # Specify the directory to copy changed DLL files
-changed_dll_dir="./changed"
+changed_dll_dir="path/to/changed/dir"
 
 # Specify the file containing the stored MD5 hashes
 hash_file="dll_hashes.txt"
 
 # Specify the name of the zip file
-zip_file="changed_dlls_$(date +'%y%m%d_%H-%M').zip"
+zip_file="path/to/changed/dir/changed_dlls_$(date +'%y%m%d_%H-%M').zip"
 
 # Calculate the current MD5 hashes of DLL files
 current_hashes=$(find "$dll_dir" -type f -name "*.dll" -exec md5sum {} +)
