@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Specify the directory containing the DLL files
-dll_dir="./"
+dll_dir="path/to/dll/directory"
 
 # Specify the output file to store the MD5 hashes
 output_file="dll_hashes.txt"
