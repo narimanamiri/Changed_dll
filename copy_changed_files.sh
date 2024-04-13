@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Specify the directory containing the DLL files
-dll_dir="./"
+dll_dir="path/to/dll/dir"
 
 # Specify the directory to copy changed DLL files
-changed_dll_dir="./changed"
+changed_dll_dir="path/to/changed/dir"
 
 # Specify the file containing the stored MD5 hashes
 hash_file="dll_hashes.txt"
